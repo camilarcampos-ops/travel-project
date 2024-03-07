@@ -80,6 +80,10 @@ section.secondary {
   text-align: center;
 }
 
+section .gallery {
+  text-align: center;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("/images/heroimg.png");
@@ -174,7 +178,9 @@ footer {
 
 .gridFooter {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-content: center;
 }
 
 footer h3 {
